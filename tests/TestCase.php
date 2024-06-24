@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Overtrue\LaravelPackage\PackageServiceProvider;
+use Nilsir\LaravelEsignV3\EsignServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -14,7 +14,7 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
      */
     protected function getPackageProviders($app)
     {
-        return [PackageServiceProvider::class];
+        return [EsignServiceProvider::class];
     }
 
     /**

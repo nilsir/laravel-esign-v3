@@ -1,10 +1,10 @@
 <?php
 
-namespace Overtrue\LaravelPackage;
+namespace Nilsir\LaravelEsignV3;
 
 use Illuminate\Support\ServiceProvider;
 
-class PackageServiceProvider extends ServiceProvider
+class EsignServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
